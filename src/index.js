@@ -19,6 +19,34 @@ const App = () => {
           <div className="text">Nice blog post!</div>
         </div>
       </div>
+      <div className="comment">
+        <a href="/" className="avatar">
+          <img alt="avatar" src={faker.image.avatar()} />
+        </a>
+        <div className="content">
+          <a href="/" className="author">
+            John
+          </a>
+          <div className="metadata">
+            <span className="date">Today at 6:22PM</span>
+          </div>
+          <div className="text">LOL</div>
+        </div>
+      </div>
+      <div className="comment">
+        <a href="/" className="avatar">
+          <img alt="avatar" src={faker.image.avatar()} />
+        </a>
+        <div className="content">
+          <a href="/" className="author">
+            Taylor
+          </a>
+          <div className="metadata">
+            <span className="date">Today at 6:49PM</span>
+          </div>
+          <div className="text">Love it!</div>
+        </div>
+      </div>
     </div>
   );
 };
